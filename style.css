@@ -22,18 +22,31 @@ body,html {
 .nav {
     color: #f9fAf8;
     font-size: 24px;
-
     display: flex;
-
+}
+.link {
+    display:flex;
+    justify-content:space-evenly;
+    width: 50%;
+}
+.link a {
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.link a:hover{
+    color: rgb(164, 226, 164);
 }
 .hero {
     margin-top: 10%;
     display: flex;
+    justify-content: center;
 }
 .heromaintext{
+    flex: 2;
     font-size: 48px;
     font-weight: bold;
-    color:#f9fAf8
+    color:#f9fAf8;
 }
 .herosecondarytext{
     padding-right: 2%;
@@ -52,6 +65,9 @@ body,html {
     border-radius: 10px 10px 10px 10px;
     border:none;
 }
+.heroimg {
+    flex: 1;
+}
 .information {
     padding: 2% 15% 5% 15%;
     font-family: 'Roboto', sans-serif;
@@ -65,6 +81,7 @@ body,html {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10%;
 }
 .imageinformation{
     display: flex;
@@ -78,4 +95,53 @@ body,html {
     padding: 5%;
     border: 2px solid #3882f6;
     border-radius: 20px 20px 20px 20px;
+}
+.quotesection {
+    padding: 10% 25% 10% 25%;
+    font-family: 'Roboto', sans-serif;
+    background-color:#e5e7eb ;
+    margin-top: 2%;
+}
+
+.quoteword {
+    color: #1f2937;
+    font-weight: lighter;
+   font-size: 36px;
+   font-style: italic;
+   text-align: justify;   
+}
+.quoter {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+.call {
+    padding: 10% 10% 10% 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.square {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    color: #ffff;
+    border-radius: 10px;
+}
+.square button {
+    color: #ffff;
+    background-color: #3882f6;
+    border: 2px solid #ffff;
+    padding: 0% 10% 0% 10%;
+    border-radius: 15px;
+}
+.callheader {
+    font-size: 26px;
+    font-style: bold;
+}
+.footer {
+    background-color: #1f2937;
+    color: #ffff;
+    padding: 2% 10% 2% 10%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
